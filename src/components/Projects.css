@@ -1,0 +1,101 @@
+.projects {
+    /* border: 2px solid green; */
+    font-family: "MuseoModerno";
+    margin-top: 3.5rem;
+}
+
+.des {
+    color: #eee5;
+}
+
+.plist {
+    margin-top: 1rem;
+}
+
+.pitem {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.images {
+    /* border: 2px solid red; */
+    background-image: linear-gradient(-45deg, #473bb4, #be24a9);
+    padding: 25px;
+    text-align: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 20px 40px #010824;
+}
+
+.images img:hover {
+    transform: scale(1.04);
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.des {
+    text-align: left;
+    width: 100%;
+}
+
+.mission {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    margin: 0 auto;
+    background-color: #011522;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circle {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}

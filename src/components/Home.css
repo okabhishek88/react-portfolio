@@ -1,0 +1,92 @@
+.Home {
+    /* border: 2px solid white; */
+    margin-top: 4rem;
+    height: calc(100vh - 4rem);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* for content */
+.content {
+    font-family: 'MuseoModerno', system-ui;
+}
+
+.name p {
+    font-size: 3.8rem;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+.name p span {
+    font-size: 3.8rem;
+    background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728);
+    background-size: 200% auto;
+    animation: gradientAnimation 5s linear infinite;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@keyframes gradientAnimation {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.content .description {
+    color: #eee5;
+    margin: 30px 0;
+    border-left: .7em solid #e945e3;
+}
+
+.description p {
+    margin-left: 1rem;
+    /* color: #eee; */
+}
+
+a {
+    color: #eee;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* for avatar */
+.avatar {
+    text-align: center;
+}
+
+.avatar .cardlogo {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 150px 150px #e945e333;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.cardlogo:hover {
+    box-shadow: 0 150px 150px #e945e355;
+}
+
+.cardlogo img {
+    width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.info {
+    background-color: #eee;
+    color: #010824;
+    padding: 0.2rem;
+}
+
+.info p {
+    font-size: 1em;
+    font-weight: bold;
+}
