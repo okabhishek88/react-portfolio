@@ -10,7 +10,7 @@ const Contacts = () => {
     },
     {
       title: "Email:",
-      value: "+91 7049476491",
+      value: "okabhishe88@gmail.com",
     },
     {
       title: "Linkedin:",
